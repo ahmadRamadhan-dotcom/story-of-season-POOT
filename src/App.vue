@@ -1,5 +1,7 @@
 <template>
-  <div>
-    <h1 class="text-red-500 font-['astounder-squared-bb']">hai</h1>
-  </div>
+  <Header />
 </template>
+
+<script setup>
+import Header from "./components/Header.vue";
+</script>

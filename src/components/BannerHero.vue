@@ -1,7 +1,7 @@
 <template>
   <div
     id="banner-hero"
-    class="sm:bg-[url('/keyvisual.jpg')] bg-no-repeat bg-cover bg-[center_center] sm:h-[60vw] xl:h-[47vw]"
+    class="sm:bg-[url('/keyvisual.jpg')] bg-no-repeat bg-cover bg-[center_center] sm:h-[60vw] xl:h-[49vw]"
   >
     <div class="sm:flex sm:justify-between xl:flex xl:justify-between xl:p-1">
       <div
@@ -42,7 +42,7 @@
       <img
         src="../assets/mobinav.png"
         alt=""
-        class="sm:h-[60px] xl:hidden sm:translate-y-1"
+        class="sm:h-[60px] sticky xl:hidden sm:translate-y-1"
       />
     </div>
   </div>

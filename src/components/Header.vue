@@ -1,6 +1,6 @@
 <template>
   <header
-    class="sm:hidden xl:block xl:flex xl:justify-center bg-no-repeat xl:bg-[url('/header-background.webp')] xl:p-[8px_8px] bg-[center_center] bg-cover"
+    class="hidden sm:hidden xl:flex xl:justify-center bg-no-repeat xl:bg-[url('/header-background.webp')] xl:p-[8px_8px] bg-[center_center] bg-cover"
   >
     <div class="xl:flex xl:gap-5">
       <span

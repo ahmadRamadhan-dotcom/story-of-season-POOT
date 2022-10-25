@@ -5,6 +5,7 @@
   <Overview />
   <Sandy />
   <KeyFeatures />
+  <Info />
 </template>
 
 <script setup>
@@ -14,4 +15,5 @@ import AvailableNow from "./components/AvailableNow.vue";
 import Overview from "./components/Overview.vue";
 import Sandy from "./components/Sandy.vue";
 import KeyFeatures from "./components/KeyFeatures.vue";
+import Info from "./components/Info.vue";
 </script>

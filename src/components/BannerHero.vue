@@ -11,17 +11,13 @@
       >
         <img
           class="h-12 sm:h-14 xl:h-20"
-          src="../assets/nintendoswitch.jpg"
+          src="/nintendoswitch.jpg"
           alt="cool nintendo switch logo"
         />
         <div class="flex lg:flex-row-reverse xl:flex-row gap-1 items-center">
+          <img src="/ps4.png" alt="nice ps4 logo" class="h-6 sm:h-7 xl:h-9" />
           <img
-            src="../assets/ps4.png"
-            alt="nice ps4 logo"
-            class="h-6 sm:h-7 xl:h-9"
-          />
-          <img
-            src="../assets/steam.png"
+            src="/steam.png"
             alt="another cool logo from steam"
             class="h-7 sm:h-10 xl:h-12"
           />

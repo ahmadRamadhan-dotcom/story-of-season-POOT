@@ -4,7 +4,7 @@
     class="sm:flex sm:justify-center xl:flex xl:justify-center xl:items-center bg-[url('/wood.jpg')] sm:py-20 xl:h-[30vw]"
   >
     <div
-      class="sm:w-[578px] md:w-[700px] lg:w-[770px] xl:w-[800px] sm:flex xl:grid xl:grid-cols-2 border-dashed border-[3px] border-[#673e2c]"
+      class="sm:w-[578px] md:w-[700px] lg:w-[770px] xl:w-[800px] sm:flex xl:grid xl:grid-cols-2 sm:border-dashed sm:border-[3px] sm:border-[#673e2c]"
     >
       <div
         class="grid sm:w-52 xl:w-52 border-r-2 border-dashed border-[#673e2c] text-right text-[#fff]"
@@ -13,8 +13,8 @@
           v-for="(data, index) in leftTable"
           :key="index"
           id="left-table"
-          :class="data.id == 6 ? 'border-b-0' : 'border-b-[3px]'"
-          class="tracking-[0.1em] font-['astounder-squared-lc-bb'] sm:pr-3 xl:pr-3 font-[300] sm:text-[26px] xl:text-[26px] border-dashed border-[#673e2c]"
+          :class="data.id == 6 ? 'border-b-0' : 'sm:border-b-[3px]'"
+          class="tracking-[0.1em] font-['astounder-squared-lc-bb'] sm:pr-3 xl:pr-3 font-[300] sm:text-[26px] xl:text-[26px] sm:border-dashed sm:border-[#673e2c]"
         >
           {{ data.name }} :
         </p>
@@ -25,9 +25,9 @@
         <p
           v-for="(data, index) in rightTable"
           :key="index"
-          :class="data.id === 6 ? ' border-b-0' : 'border-b-[3px]'"
+          :class="data.id === 6 ? ' border-b-0' : 'sm:border-b-[3px]'"
           id="right-table"
-          class="tracking-[0.1em] border-dashed border-[#673e2c] md:p-2 xl:p-[6px] sm:pl-5 xl:pl-4 font-['astounder-squared-lc-bb'] font-[300] sm:text-[26px] xl:text-[26px] text-[#673e2c]"
+          class="tracking-[0.1em] sm:border-dashed sm:border-[#673e2c] md:p-2 xl:p-[6px] sm:pl-5 xl:pl-4 font-['astounder-squared-lc-bb'] font-[300] sm:text-[26px] xl:text-[26px] text-[#673e2c]"
         >
           {{ data.name }}
         </p>

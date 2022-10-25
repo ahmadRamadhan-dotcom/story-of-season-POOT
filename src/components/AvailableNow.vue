@@ -1,51 +1,36 @@
 <template>
-  <div class="grid place-content-center mb-2">
-    <div
-      class="grid place-content-center -translate-x-3 -translate-y-14 sm:-translate-y-14 sm:-translate-x-0 xl:-translate-y-10 cursor-pointer"
-    >
+  <div class="grid place-content-center">
+    <div class="grid place-content-center place-items-center">
       <img
         src="../assets/availablenow.png"
-        alt="go on buy, available now image"
-        class="h-24 sm:h-[100px] lg:h-[120px]"
+        class="sm:h-[16vw] md:h-[13vw] lg:h-[12vw] xl:h-[9vw] sm:-translate-y-14"
+        alt="available board"
       />
     </div>
     <div
-      class="sm:grid sm:place-content-center sm:place-items-center lg:flex lg:items-center sm:-translate-y-8 lg:translate-x-10 lg:-translate-y-12 xl:translate-x-[170px] xl:-translate-y-10 lg:gap-8 xl:gap-8 xl:w-10/12"
+      class="sm:grid sm:place-content-center sm:place-items-center lg:flex lg:items-center lg:gap-5 xl:gap-8"
     >
       <img
-        class="hidden sm:hidden lg:block xl:h-[260px]"
         src="../assets/tree2.png"
-        alt="tree2"
+        class="sm:hidden lg:block lg:h-60 lg:-translate-y-20 lg:translate-x-16"
+        alt=""
       />
       <h1
-        class="font-['astounder-squared-bb'] mx-auto sm:mx-0 text-center w-11/12 sm:w-[540px] xl:w-[750px] text-[32px] sm:text-[38px] lg:text-[45px] leading-[40px] sm:leading-[50px] xl:leading-[50px] text-[#84b46d] font-[300]"
+        class="sm:text-[38px] lg:text-[45px] sm:leading-[50px] sm:w-10/12 md:w-8/12 lg:w-[550px] lg:-translate-y-[60px] lg:translate-x-12 sm:text-center font-[300] font-['astounder-squared-bb'] text-[#84b46d]"
       >
         The long-awaited brand new entry in the STORY OF SEASONS series makes
         its debut on Nintendo Switch™!
       </h1>
       <img
         src="../assets/horse.png"
-        class="h-32 mx-auto sm:mx-0 sm:h-32 mt-10 sm:mt-4 md:mt-7 xl:h-[140px] lg:-translate-x-2 lg:translate-y-20 xl:translate-y-24 xl:-translate-x-10"
-        alt="small brown horse"
+        class="sm:h-32 sm:mt-10"
+        alt="nice horses"
       />
       <img
         src="../assets/tree1.png"
-        class="hidden sm:hidden lg:block lg:h-[240px] xl:h-[260px] lg:-translate-y-40 lg:-translate-x-32 xl:-translate-y-[140px] xl:-translate-x-[110px]"
-        alt="tree1"
+        alt=""
+        class="sm:hidden lg:block lg:-translate-y-[210px] lg:-translate-x-24 lg:h-60"
       />
     </div>
   </div>
-  <div class="green-zigzag">&nbsp;</div>
 </template>
-
-<style scoped>
-.green-zigzag {
-  background-image: linear-gradient(44deg, #a8db90 52%, transparent 52%),
-    linear-gradient(317deg, #a8db90 52%, transparent 52%);
-}
-
-.green-zigzag {
-  background-size: 30px 30px;
-  height: 30px;
-}
-</style>

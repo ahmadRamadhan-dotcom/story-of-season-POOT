@@ -46,7 +46,7 @@
         of a volcano!
       </span>
       <span
-        class="sm:block md:block lg:hidden w-[340px] sm:w-[640px] xl:w-[890px] md:mt-7 xl:mt-3 font-['Ubuntu'] font-[300] text-lg sm:text-lg lg:text-[19px] text-[#673e2c]"
+        class="sm:block md:block lg:hidden w-[340px] sm:w-[600px] xl:w-[890px] md:mt-7 xl:mt-3 font-['Ubuntu'] font-[300] text-lg sm:text-lg lg:text-[19px] text-[#673e2c]"
       >
         A new cast of marriage candidates, a town that grows and thrives along
         with your farm, and a request system highlight the new features, all

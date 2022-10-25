@@ -7,7 +7,7 @@
       <img
         src="../assets/keyfeatures-sign.png"
         alt=""
-        class="sm:h-[36vh] md:h-[17vh] xl:h-[170px]"
+        class="sm:h-[36vh] md:h-[17vh] lg:h-[22vh] xl:h-[170px]"
       />
     </div>
     <KeyFeaturesCard :featuresData="keyFeaturesData" />

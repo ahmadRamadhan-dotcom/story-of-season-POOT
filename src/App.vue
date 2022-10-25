@@ -2,9 +2,9 @@
   <Header />
   <BannerHero />
   <AvailableNow />
-  <!-- <Overview />   -->
-  <!-- <Sandy /> -->
-  <!-- <KeyFeatures /> -->
+  <Overview />
+  <Sandy />
+  <KeyFeatures />
 </template>
 
 <script setup>

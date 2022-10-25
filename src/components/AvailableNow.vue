@@ -33,4 +33,16 @@
       />
     </div>
   </div>
+  <div class="green-zigzag">&nbsp;</div>
 </template>
+
+<style scoped>
+.green-zigzag {
+  background-size: 30px 30px;
+  height: 30px;
+}
+.green-zigzag {
+  background-image: linear-gradient(44deg, #a8db90 52%, transparent 52%),
+    linear-gradient(317deg, #a8db90 52%, transparent 52%);
+}
+</style>

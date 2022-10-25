@@ -1,10 +1,8 @@
 <template>
   <Header />
-  <main>
-    <BannerHero />
-    <AvailableNow />
-    <Overview />
-  </main>
+  <BannerHero />
+  <AvailableNow />
+  <Overview />
 </template>
 
 <script setup>

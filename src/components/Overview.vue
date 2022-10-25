@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#a8db90] bg-[url('/bg-grass.png')] flex justify-center bg-center md:h-[80vw] xl:h-[39vw]"
+    class="bg-[#a8db90] bg-[url('/bg-grass.png')] flex justify-center bg-center md:h-[80vw] lg:h-[53vw] xl:h-[39vw]"
   >
     <div
       class="grid place-content-center place-items-center text-center md:text-left items-center"
@@ -16,12 +16,12 @@
         <img
           src="../assets/ss_intro1_thumb.jpg"
           alt=""
-          class="h-48 sm:h-[330px] md:h-[170px] xl:h-[230px] -translate-y-10 sm:-translate-y-6 md:-translate-x-6 md:-translate-y-0 xl:-translate-x-12 border-2 shadow-md"
+          class="h-48 sm:h-[330px] md:h-[170px] lg:h-[230px] -translate-y-10 sm:-translate-y-6 md:-translate-x-6 md:-translate-y-0 xl:-translate-x-12 border-2 shadow-md"
         />
         <div
-          class="grid w-[340px] sm:w-[599px] md:w-[370px] sm:mt-10 md:mt-0 xl:w-[480px] md:-translate-x-1 xl:-translate-x-6 text-['Ubuntu'] text-[#673e2c]"
+          class="grid w-[340px] sm:w-[599px] md:w-[370px] sm:mt-10 md:mt-0 lg:w-[480px] md:-translate-x-1 xl:-translate-x-6 text-['Ubuntu'] text-[#673e2c]"
         >
-          <span class="text-lg sm:text-lg xl:text-[19px] font-[300]">
+          <span class="text-lg sm:text-lg lg:text-[19px] font-[300]">
             The long-awaited brand-new entry in the original farm/life
             simulation franchise, known in Japan as
             <span class="font-bold italic">Bokujo Monogatari,</span> makes its
@@ -30,14 +30,14 @@
             to the very tile.
           </span>
           <span
-            class="hidden sm:hidden font-[300] xl:mt-5 sm:text-lg xl:text-[19px]"
+            class="hidden sm:hidden lg:block font-[300] lg:mt-4 xl:mt-5 sm:text-lg lg:text-[19px]"
             >A new cast of marriage candidates, a town that grows and thrives
             along with your farm, and a request system</span
           >
         </div>
       </div>
       <span
-        class="hidden sm:hidden xl:w-[890px] xl:mt-3 font-['Ubuntu'] font-[300] xl:text-[19px] text-[#673e2c]"
+        class="hidden sm:hidden lg:block lg:w-[850px] xl:w-[890px] lg:mt-5 xl:mt-3 font-['Ubuntu'] font-[300] lg:text-[19px] text-[#673e2c]"
       >
         highlight the new features, all while retaining the core elements of the
         STORY OF SEASONS series. Finding Earth Sprites while exploring your
@@ -46,7 +46,7 @@
         of a volcano!
       </span>
       <span
-        class="sm:block md:block w-[340px] sm:w-[640px] xl:w-[890px] md:mt-7 xl:mt-3 font-['Ubuntu'] font-[300] text-lg sm:text-lg xl:text-[19px] text-[#673e2c]"
+        class="sm:block md:block lg:hidden w-[340px] sm:w-[640px] xl:w-[890px] md:mt-7 xl:mt-3 font-['Ubuntu'] font-[300] text-lg sm:text-lg lg:text-[19px] text-[#673e2c]"
       >
         A new cast of marriage candidates, a town that grows and thrives along
         with your farm, and a request system highlight the new features, all
@@ -56,7 +56,7 @@
         change, an island in the sky, or even the inside of a volcano!
       </span>
       <div
-        class="w-80 sm:w-[599px] xl:w-[890px] grid place-content-end mt-6 sm:mt-4 xl:mt-3"
+        class="w-80 sm:w-[599px] lg:w-[890px] grid place-content-end mt-6 sm:mt-4 xl:mt-3"
       >
         <img
           src="../assets/cow.png"

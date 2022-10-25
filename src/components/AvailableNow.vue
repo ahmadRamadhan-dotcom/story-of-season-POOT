@@ -1,5 +1,5 @@
 <template>
-  <div class="grid place-content-center">
+  <div class="grid place-content-center mb-2">
     <div
       class="grid place-content-center -translate-x-3 -translate-y-14 sm:-translate-y-14 sm:-translate-x-0 xl:-translate-y-10 cursor-pointer"
     >
@@ -35,4 +35,17 @@
       />
     </div>
   </div>
+  <div class="green-zigzag">&nbsp;</div>
 </template>
+
+<style scoped>
+.green-zigzag {
+  background-image: linear-gradient(44deg, #a8db90 52%, transparent 52%),
+    linear-gradient(317deg, #a8db90 52%, transparent 52%);
+}
+
+.green-zigzag {
+  background-size: 30px 30px;
+  height: 30px;
+}
+</style>

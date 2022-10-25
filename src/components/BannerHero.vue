@@ -4,7 +4,7 @@
     class="bg-[url('/keyvisual-v.jpg')] sm:bg-[url('/keyvisual.jpg')] bg-no-repeat bg-cover bg-right-top sm:bg-[center_center] h-[135vw] sm:h-[60vw] xl:h-[49vw]"
   >
     <div
-      class="flex justify-between -translate-y-2 sm:flex sm:justify-between xl:flex xl:justify-between xl:p-1"
+      class="flex justify-between -translate-y-2 sm:flex sm:justify-between xl:flex xl:justify-between xl:-translate-y-0 xl:p-1"
     >
       <div
         class="flex items-center sm:flex sm:items-center gap-1 sm:gap-1 xl:flex xl:gap-2 xl:items-center"

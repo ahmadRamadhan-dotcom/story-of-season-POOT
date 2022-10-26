@@ -3,7 +3,7 @@
     class="grid py-7 place-content-center xl:mt-10 2xl:mt-0 2xl:bg-[#fff] 2xl:mx-auto 2xl:border-[3px] 2xl:w-[1600px]"
   >
     <div
-      class="w-[98%] mx-auto sm:w-11/12 md:w-10/12 lg:w-9/12 text-center sm:mx-auto flex flex-wrap justify-center sm:flex sm:flex-wrap sm:justify-center sm:gap-1 gap-2 xl:flex xl:gap-5 sm:flex-nowrap place-items-center"
+      class="w-[98%] mx-auto sm:w-11/12 md:w-10/12 lg:w-9/12 text-center sm:mx-auto flex flex-wrap justify-center sm:flex sm:flex-wrap xl:flex-nowrap sm:justify-center sm:gap-1 gap-2 xl:flex xl:gap-5 place-items-center"
     >
       <img
         v-for="(data, index) in platform"
@@ -14,7 +14,7 @@
       />
     </div>
     <div
-      class="mt-10 sm:mt-10 mx-auto w-11/12 sm:w-11/12 sm:mx-auto xl:mt-14 text-center grid place-content-center items-center font-[300] font-['Ubuntu'] text-[#000000]"
+      class="mt-10 sm:mt-10 mx-auto w-11/12 sm:w-10/12 sm:mx-auto xl:mt-14 text-center grid place-content-center items-center font-[300] font-['Ubuntu'] text-[#000000]"
     >
       <span class="text-[13px]"
         >©2022 Marvelous Inc. All Rights Reserved.

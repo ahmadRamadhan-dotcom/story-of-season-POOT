@@ -1,7 +1,7 @@
 <template>
   <div
     id="key-features"
-    class="bg-[#a8db90] pb-20 sm:py-10 md:py-0 xl:pb-20 sm:bg-[url('/bg-grass.png')] grid place-content-center place-items-center 2xl:w-[1600px] 2xl:mx-auto"
+    class="bg-[#a8db90] pb-20 sm:py-10 md:py-8 xl:pb-20 sm:bg-[url('/bg-grass.png')] grid place-content-center place-items-center 2xl:w-[1600px] 2xl:mx-auto"
   >
     <div class="xl:w-[800px] grid place-content-center">
       <img

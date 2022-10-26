@@ -1,7 +1,7 @@
 <template>
   <div
     id="section-sandy"
-    class="sm:bg-[url('/bg-sandy.png')] bg-[#ffe8be] sm:h-[135vw] lg:h-[60vw] xl:h-[55vw] flex justify-center"
+    class="sm:bg-[url('/bg-sandy.png')] bg-[#ffe8be] sm:h-[135vw] lg:h-[60vw] xl:h-[55vw] flex justify-center 2xl:mx-auto 2xl:w-[1600px]"
   >
     <div class="lg:flex lg:items-center">
       <img

@@ -1,5 +1,7 @@
 <template>
-  <div class="grid place-content-center">
+  <div
+    class="grid place-content-center 2xl:w-[1600px] 2xl:mx-auto 2xl:bg-[#fff] 2xl:border-[3px]"
+  >
     <div class="grid place-content-center place-items-center">
       <img
         src="../assets/availablenow.png"

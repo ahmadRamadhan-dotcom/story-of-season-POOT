@@ -5,7 +5,7 @@
     <div class="grid place-content-center place-items-center">
       <img
         src="../assets/availablenow.png"
-        class="h-[100px] sm:h-[16vw] md:h-[13vw] lg:h-[12vw] xl:h-[9vw] -translate-y-14 sm:-translate-y-14"
+        class="h-[100px] sm:h-[16vw] md:h-[13vw] lg:h-[12vw] xl:h-[9vw] 2xl:h-[6vw] -translate-y-14 sm:-translate-y-14"
         alt="available board"
       />
     </div>

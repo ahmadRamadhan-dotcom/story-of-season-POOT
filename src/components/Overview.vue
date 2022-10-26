@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#a8db90] bg-[url('/bg-grass.png')] flex justify-center bg-center md:h-[80vw] lg:h-[53vw] xl:h-[39vw]"
+    class="bg-[#a8db90] bg-[url('/bg-grass.png')] flex justify-center bg-center md:h-[80vw] lg:h-[53vw] xl:h-[39vw] 2xl:w-[1600px] 2xl:mx-auto"
   >
     <div
       class="grid place-content-center place-items-center text-center md:text-left items-center"

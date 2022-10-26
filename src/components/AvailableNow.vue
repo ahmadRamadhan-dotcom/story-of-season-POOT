@@ -35,7 +35,7 @@
       />
     </div>
   </div>
-  <div class="green-zigzag">&nbsp;</div>
+  <div class="green-zigzag 2xl:mx-auto 2xl:w-[1600px]">&nbsp;</div>
 </template>
 
 <style scoped>

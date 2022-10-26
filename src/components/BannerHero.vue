@@ -1,7 +1,7 @@
 <template>
   <div
     id="banner-hero"
-    class="bg-[url('/keyvisual-v.jpg')] sm:bg-[url('/keyvisual.jpg')] bg-no-repeat bg-cover bg-right-top sm:bg-[center_center] h-[135vw] sm:h-[60vw] xl:h-[49vw] 2xl:h-[40vw] 2xl:w-[1600px] 2xl:mx-auto"
+    class="bg-[url('/keyvisual-v.jpg')] sm:bg-[url('/keyvisual.jpg')] bg-no-repeat bg-cover bg-right-top sm:bg-[center_center] h-[135vw] sm:h-[60vw] xl:h-[49vw] 2xl:h-[35vw] 2xl:w-[1600px] 2xl:mx-auto"
   >
     <div
       class="flex justify-between -translate-y-2 sm:flex sm:justify-between xl:flex xl:justify-between xl:-translate-y-0 xl:p-1"

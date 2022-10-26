@@ -66,7 +66,7 @@
       </div>
     </div>
   </div>
-  <div class="sandy-zigzag bg-[#a8db90]">&nbsp;</div>
+  <div class="sandy-zigzag bg-[#a8db90] 2xl:w-[1600px] 2xl:mx-auto">&nbsp;</div>
 </template>
 
 <style scoped>

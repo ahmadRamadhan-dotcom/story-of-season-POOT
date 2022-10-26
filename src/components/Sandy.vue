@@ -42,7 +42,12 @@
       </div>
     </div>
   </div>
-  <div class="green-zigzag bg-[#ffe8be]" id="featurestrg">&nbsp;</div>
+  <div
+    class="green-zigzag bg-[#ffe8be] 2xl:mx-auto 2xl:w-[1600px]"
+    id="featurestrg"
+  >
+    &nbsp;
+  </div>
 </template>
 
 <style scoped>

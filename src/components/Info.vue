@@ -1,7 +1,7 @@
 <template>
   <div
     id="info-section"
-    class="sm:flex sm:justify-center xl:flex xl:justify-center xl:items-center bg-[url('/wood.jpg')] py-16 sm:py-20 xl:h-[30vw]"
+    class="sm:flex sm:justify-center xl:flex xl:justify-center xl:items-center bg-[url('/wood.jpg')] py-16 sm:py-20 xl:h-[30vw] 2xl:w-[1600px] 2xl:mx-auto"
   >
     <div
       class="hidden sm:w-[578px] md:w-[700px] lg:w-[770px] xl:w-[800px] sm:flex xl:grid xl:grid-cols-2 sm:border-dashed sm:border-[3px] sm:border-[#673e2c]"

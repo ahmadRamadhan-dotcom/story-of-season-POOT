@@ -111,3 +111,9 @@
 .tk-astounder-squared-lc-bb {
   font-family: "astounder-squared-lc-bb", sans-serif;
 }
+
+@media (min-width: 1536px) {
+  body {
+    background: #f5f5f5;
+  }
+}

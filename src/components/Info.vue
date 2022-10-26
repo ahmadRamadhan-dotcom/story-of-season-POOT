@@ -20,14 +20,14 @@
         </p>
       </div>
       <div
-        class="sm:translate-x-[1px] xl:-translate-x-[194px] sm:w-[400px] md:w-[550px] xl:w-[600px]"
+        class="sm:translate-x-[1px] xl:-translate-x-[200px] sm:w-[400px] md:w-[550px] xl:w-[600px]"
       >
         <p
           v-for="(data, index) in rightTable"
           :key="index"
           :class="data.id === 6 ? ' border-b-0' : 'sm:border-b-[3px]'"
           id="right-table"
-          class="tracking-[0.1em] sm:border-dashed border-[#673e2c] md:p-2 xl:p-[6px] sm:pl-5 xl:pl-4 font-['astounder-squared-lc-bb'] font-[300] sm:text-[26px] xl:text-[26px] text-[#673e2c]"
+          class="tracking-[0.1em] sm:border-dashed border-[#673e2c] md:p-2 xl:p-[6px] sm:pl-5 xl:pl-7 font-['astounder-squared-lc-bb'] font-[300] sm:text-[26px] xl:text-[26px] text-[#673e2c]"
         >
           {{ data.name }}
         </p>

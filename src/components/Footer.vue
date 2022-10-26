@@ -1,5 +1,7 @@
 <template>
-  <footer class="grid py-7 place-content-center xl:mt-10">
+  <footer
+    class="grid py-7 place-content-center xl:mt-10 2xl:mt-0 2xl:bg-[#fff] 2xl:mx-auto 2xl:border-[3px] 2xl:w-[1600px]"
+  >
     <div
       class="sm:w-11/12 md:w-10/12 lg:w-9/12 text-center sm:mx-auto sm:grid sm:grid-cols-6 sm:place-content-center sm:place-items-center xl:flex xl:gap-5 place-items-center"
     >

@@ -40,7 +40,7 @@
       <img
         src="../assets/mobinav.png"
         alt=""
-        class="h-14 sm:h-[60px] sticky xl:hidden translate-y-3 sm:translate-y-1"
+        class="h-14 sm:h-[60px] xl:hidden translate-y-3 sm:translate-y-1"
       />
     </div>
     <div class="grid sm:hidden place-content-center place-items-center mt-14">

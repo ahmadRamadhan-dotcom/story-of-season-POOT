@@ -1,20 +1,20 @@
 <template>
   <div
     id="section-sandy"
-    class="sm:bg-[url('/bg-sandy.png')] bg-[#ffe8be] sm:h-[135vw] lg:h-[60vw] xl:h-[55vw] flex justify-center 2xl:mx-auto 2xl:w-[1600px]"
+    class="sm:bg-[url('/bg-sandy.png')] bg-[#ffe8be] h-[150vh] sm:h-[135vw] lg:h-[60vw] xl:h-[55vw] flex justify-center 2xl:mx-auto 2xl:w-[1600px]"
   >
     <div class="lg:flex lg:items-center">
       <img
         src="../assets/maincharacters.png"
         alt=""
-        class="sm:h-[45vw] sm:mx-auto xl:h-[33vw]"
+        class="h-[70vw] sm:h-[45vw] mx-auto sm:mx-auto xl:h-[33vw]"
       />
       <div
         id="paper"
-        class="bg-[url('/paper.png')] sm:mt-10 md:mt-0 bg-no-repeat sm:bg-[50%] xl:bg-[center_top] lg:bg-cover xl:bg-cover"
+        class="bg-[url('/paper.png')] mx-auto sm:mx-0 sm:mt-10 md:mt-0 bg-no-repeat bg-[50%] sm:bg-[50%] xl:bg-[center_top] lg:bg-cover xl:bg-cover"
       >
         <div
-          class="grid sm:w-[98%] xl:w-11/12 sm:text-center lg:text-left xl:mt-7"
+          class="grid w-11/12 sm:w-[98%] xl:w-11/12 text-center sm:text-center lg:text-left xl:mt-7"
         >
           <span class="font-['Ubuntu'] text-base text-[#673e2c] font-[300]"
             >Inspired by tales of their grandfather's pioneering days, the
@@ -61,9 +61,18 @@
   height: 30px;
 }
 
+@media (max-width: 640px) {
+  #paper {
+    width: 85%;
+    height: 680px;
+    padding: 20px;
+  }
+}
+
 @media (min-width: 640px) {
   #paper {
-    height: 460px;
+    width: 500px;
+    height: 500px;
     padding: 40px;
   }
 }
